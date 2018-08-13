@@ -11,5 +11,5 @@ input=gets.chomp
 input=0
 input_to_index(input)
 
-move(board, index, value)
+move(board, index, "X")
 display_board(board)
