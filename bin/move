@@ -8,7 +8,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 
 input=gets.chomp
-input=0
+index=0
 input_to_index(input)
 
 move(board, index, "X")
